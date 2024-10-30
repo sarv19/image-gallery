@@ -52,9 +52,6 @@ The build is minified and the filenames include the hashes.
 
 ## Contributing
 
-We welcome contributions to enhance the functionality and features of this project. Feel free to open issues or submit pull requests on GitHub.
+You are welcomed contributions to enhance the functionality and features of this project. Feel free to open issues or submit pull requests on GitHub.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
