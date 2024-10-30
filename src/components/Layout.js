@@ -10,7 +10,7 @@ import { Loader } from 'lucide-react';
 
 const images = generateMockImages(200);
 
-const columnWidth = (window.innerWidth / 4)-16;
+const columnWidth = (window.innerWidth / 4) - 20;
 const defaultHeight = 300;
 
 const cache = new CellMeasurerCache({
@@ -51,8 +51,8 @@ const MasonryComponent = ({ items, setRef }) => {
       cellMeasurerCache={cache}
       cellPositioner={cellPositioner}
       cellRenderer={cellRenderer}
-      height={window.innerHeight}
-      width={window.innerWidth}
+      height={window.innerHeight - 32}
+      width={window.innerWidth - 32}
       overscanByPixels={100}
       ref={setRef}
     />
@@ -105,6 +105,9 @@ function Layout() {
 const styles = {
   container: {
     width: '100%',
+    // paddingLeft: '16px',
+    // paddingRight: '16px',
+    padding: '16px',
   },
 };
 
