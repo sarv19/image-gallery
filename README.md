@@ -1,5 +1,7 @@
 # Masonry Image Gallery with React-Virtualized
 
+![alt text](image.png)
+
 Welcome to the Masonry Image Gallery project! This project showcases a highly efficient and visually appealing image gallery built using React and the powerful `react-virtualized` library. The gallery dynamically arranges images in a masonry layout, ensuring optimal performance and a seamless user experience.
 
 ## Features
